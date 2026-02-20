@@ -50,9 +50,9 @@ app.post('/singup',async(req,res)=>{
     });
 
 });
-app.test('/test',verifyToken,(req,res)=>{
-    res.send("This is a protected route");
-})
+// app.test('/test',verifyToken,(req,res)=>{
+//     res.send("This is a protected route");
+// })
 app.post('/login',async(req,res)=>{
     if(!req.body.email||!req.body.password){
         return res.status(400).json({
