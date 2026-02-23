@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="text-white space-y-4 lg:pr-36">
             <h1 data-aos="fade-up" className="text-5xl font-bold">
-            ADMS(Air Born Disease Monitoring System)
+            Pollusat (ADMS:Air Born Data Monitoring System)
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
             PolluSat is an Environmental Monitoring System designed to detect harmful gases in the atmosphere, including NO₂, SO₂, CO, and H₂S. 
