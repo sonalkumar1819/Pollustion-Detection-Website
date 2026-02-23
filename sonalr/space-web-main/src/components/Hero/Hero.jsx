@@ -14,7 +14,7 @@ const Hero = () => {
             PolluSat is an Environmental Monitoring System designed to detect harmful gases in the atmosphere, including NO₂, SO₂, CO, and H₂S. 
             Equipped with advanced gas sensors, it continuously monitors air quality and provides real-time data through a responsive website 
             and GUI. This system helps analyze pollution patterns, offering valuable insights for environmental safety, research, and mitigation 
-            strategies
+            starting with the launch of the first PolluSat satellite in 2024, marking a significant step towards a cleaner and healthier environment.
             </p>
             <button
               data-aos="fade-up"
