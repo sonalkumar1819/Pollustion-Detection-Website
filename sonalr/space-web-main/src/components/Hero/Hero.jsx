@@ -8,13 +8,11 @@ const Hero = () => {
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="text-white space-y-4 lg:pr-36">
             <h1 data-aos="fade-up" className="text-5xl font-bold">
-            Pollusat (ADMS:Air Born Data Monitoring System)
+              Pollusat: Air Born Data Monitoring System
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
-            PolluSat is an Environmental Monitoring System designed to detect harmful gases in the atmosphere, including NO₂, SO₂, CO, and H₂S. 
-            Equipped with advanced gas sensors, it continuously monitors air quality and provides real-time data through a responsive website 
-            and GUI. This system helps analyze pollution patterns, offering valuable insights for environmental safety, research, and mitigation 
-            starting with the launch of the first PolluSat satellite in 2024, marking a significant step towards a cleaner and healthier environment.
+            Pollusat is a cutting-edge Air Born Data Monitoring System (ADMS) designed to revolutionize the way we monitor and analyze atmospheric data. With its advanced sensors and real-time data processing capabilities, Pollusat provides accurate and comprehensive insights into air quality, weather patterns, and environmental conditions. Whether it's for scientific research, environmental monitoring, or disaster management, Pollusat offers a powerful solution for understanding and addressing the challenges of our changing atmosphere.
+
             </p>
             <button
               data-aos="fade-up"
