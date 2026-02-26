@@ -50,7 +50,7 @@ function Register() {
             <div className="pollution-overlay"></div>
 
             <div className="login-box">
-                <h1>Create Account</h1>
+                <h2 className="title">PolluSafe</h2>
                 <p className="subtitle">Join Us • Save Earth 🌍</p>
 
                 <form>
