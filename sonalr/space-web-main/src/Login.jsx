@@ -46,9 +46,7 @@ function Login() {
           <button type="submit" onClick={loginSubmit}>Login</button>
         </form>
         <span style={{ color: 'pink', fontSize: "12px" }}>Don't have an account ? <Link to="/register"><b style={{ color: 'skyblue' }}>Register here</b></   Link></span>
-        <p className="footer-text">
-          Reduce Pollution 🌱 Save Future
-        </p>
+        <p className="subtitle">PolluSafe • Protecting Our Planet 🌍</p>
       </div>
     </div>
   );
