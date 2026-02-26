@@ -20,7 +20,7 @@ app.post('/singup',async(req,res)=>{
     if(userexist){
         return res.status(400).json({
             success:false,
-            message:"User with this email already exists"
+            message:"User is already exist with this email"
         });
     }
 
@@ -33,7 +33,7 @@ app.post('/singup',async(req,res)=>{
     if(!user){
         return res.status(400).json({
             success:false,
-            message:"User data is missing"
+            message:"Error in creating user"
         });
     }
     user=user.toObject();
