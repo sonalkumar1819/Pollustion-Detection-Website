@@ -33,7 +33,7 @@ app.post('/singup',async(req,res)=>{
     if(!user){
         return res.status(400).json({
             success:false,
-            message:"Error in creating user"
+            message:"Error while craeting the user account"
         });
     }
     user=user.toObject();
