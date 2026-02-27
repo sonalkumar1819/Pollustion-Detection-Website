@@ -13,7 +13,7 @@ app.post('/singup',async(req,res)=>{
     if(!req.body.name||!req.body.email||!req.body.password){
         return res.status(400).json({
             success:false,
-           message:"Name,email and your password is required"
+           message:"Name, email and password are required fields all fields are required to create an account"
         })
     }
     let userexist=await User.findOne({email:req.body.email});
