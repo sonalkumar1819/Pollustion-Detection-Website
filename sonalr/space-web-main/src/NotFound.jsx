@@ -8,7 +8,7 @@ function NotFound(){
             <br>
             </br>
             <button>
-                <Link to="/">Go to Home Page</Link>
+                <Link to="/" style={{textDecoration:'none', color:'white'}}>Go to Home</Link>
             </button>
         </div>
     )
