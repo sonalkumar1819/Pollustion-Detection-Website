@@ -28,7 +28,6 @@ const App = () => {
   });
   return (
   //  Home page
-    
     <Routes>
     <Route path="/" element={<TimedHomePage />} />
     <Route path="/login" element={<Login />} />
