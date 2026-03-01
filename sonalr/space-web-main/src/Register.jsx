@@ -15,7 +15,7 @@ function Register() {
     async function SubmitForm(e) {
         e.preventDefault();
         if(!name.trim()){
-            alert("Name is required");
+            alert("Name is required field");
             return;
         }
         if(!email.trim()){
