@@ -43,7 +43,7 @@ app.post('/singup',async(req,res)=>{
             return res.status(500).send("Error in token generation");
         }
         res.status(201).send({
-            message:"User created successfully and token generated",
+            message:"User is created successfully",
             user,
             auth:token
         });
