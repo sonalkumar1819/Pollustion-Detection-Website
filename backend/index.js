@@ -65,7 +65,7 @@ message:"Email and password are required fields all fields are required to login
     if(!user){
         return res.status(400).json({
             success:false,
-            message:"You don't have an account please Signup first"
+            message:"User is not exist with this email, please signup first"
         })
     }
     const isPasswordValid=await bcrypt.compare(req.body.password,user.password);
