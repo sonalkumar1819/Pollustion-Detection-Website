@@ -57,7 +57,8 @@ app.post('/login',async(req,res)=>{
     if(!req.body.email||!req.body.password){
         return res.status(400).json({
             success:false,
-            message:"Email and password are required"
+            
+message:"Email and password are required fields all fields are required to login make sure you have an account if you don't have an account please signup first"
         })
     }
     let user=await User.findOne({email:req.body.email});
