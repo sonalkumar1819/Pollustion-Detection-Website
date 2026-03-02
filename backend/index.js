@@ -74,6 +74,7 @@ message:"Email and password are required fields all fields are required to login
         return res.status(400).json({
             success:false,
             message:"Invalid password"
+            
         })
     }
     user=user.toObject();
