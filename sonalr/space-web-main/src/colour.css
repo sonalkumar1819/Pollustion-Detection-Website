@@ -11,6 +11,9 @@
   position: relative;
   font-family: "Segoe UI", sans-serif;
 }
+.{
+  box-sizing: border-box;
+}
 
 /* Dark Pollution Effect */
 .pollution-overlay {
