@@ -36,7 +36,10 @@ function Login() {
 
       <div className="login-box">
         <h1>Welcome Back</h1>
-        <p className="subtitle">Save Earth • Login Securely</p>
+        <p className="subtitle">Save Earth</p>
+        <h1>This is 
+PolluSafe Login Page
+        </h1>
 
         <form>
           <input type="email" placeholder="Enter Email" required value={email} onChange={(e) => { setEmail(e.target.value) }} />
@@ -46,7 +49,7 @@ function Login() {
           <button type="submit" onClick={loginSubmit}>Login</button>
         </form>
         <span style={{ color: 'pink', fontSize: "12px" }}>Don't have an account ? <Link to="/register"><b style={{ color: 'skyblue' }}>Register here</b></   Link></span>
-        <p className="subtitle">PolluSafe • Protecting Our Planet 🌍</p>
+        <p className="subtitle">PolluSafe • Protecting Our Planet (Pollusat)🌍</p>
       </div>
     </div>
   );
