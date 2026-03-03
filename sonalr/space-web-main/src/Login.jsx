@@ -46,8 +46,8 @@ function Login() {
 
           <button type="submit" onClick={loginSubmit}>Login</button>
         </form>
-        <span style={{ color: 'pink', fontSize: "12px" }}>Don't have an account ? <Link to="/register"><b style={{ color: 'skyblue' }}>Register here</b></   Link></span>
-        <p className="subtitle">PolluSafe • Protecting Our Planet (Pollusat)🌍</p>
+        <span style={{ color: 'pink', fontSize: "12px" }}>Don't have an account ? <Link to="/register"><b style={{ color: 'skyblue' }}>Register here</b></Link></span>
+        <p className="subtitle">Pollusat(Pollution Detection Website)🌍</p>
       </div>
     </div>
   );
