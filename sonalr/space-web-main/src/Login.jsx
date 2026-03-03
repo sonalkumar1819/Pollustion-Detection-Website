@@ -37,9 +37,7 @@ function Login() {
       <div className="login-box">
         <h1>Welcome Back</h1>
         <p className="subtitle">Save Earth</p>
-        <h1>This is 
-PolluSafe Login Page
-        </h1>
+        <h1>Pollution Detection Login Page</h1>
 
         <form>
           <input type="email" placeholder="Enter Email" required value={email} onChange={(e) => { setEmail(e.target.value) }} />
