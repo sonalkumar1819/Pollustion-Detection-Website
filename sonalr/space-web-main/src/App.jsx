@@ -34,6 +34,7 @@ const App = () => {
     <Route path="/register" element={<Register />} />
     <Route element={<PrivateRouter/>}>
     <Route path="/logout" element={<Logout />} />
+    <Route path="*" element={<NotFound />} />
 
     </Route>
     </Routes>
