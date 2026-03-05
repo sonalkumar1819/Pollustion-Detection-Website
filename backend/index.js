@@ -65,7 +65,7 @@ message:"Email and password are required fields all fields are required to login
     if(!user){
         return res.status(400).json({
             success:false,
-      message:"User is not exist with this email please signup first"
+      message:"User is not exist with this email please signup first to create an account"
         })
     }
     const isPasswordValid=await bcrypt.compare(req.body.password,user.password);
@@ -81,7 +81,8 @@ message:"Email and password are required fields all fields are required to login
     delete user.password;
     JWT.sign({user},JWT_SECRET,{expiresIn:'2h'},(err,token)=>{
         if(err){
-            return res.status(500).send("Error in token generation");
+            return
+            
         }
         res.send({user,auth:token});
     })
