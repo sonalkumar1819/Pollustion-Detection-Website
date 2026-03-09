@@ -23,7 +23,7 @@ function Register() {
             return;
         }
         if(!password.trim()){
-            alert("Password is required");
+            alert("Password is required field");
             return;
         }
         let result = await fetch("http://localhost:3000/singup", {
