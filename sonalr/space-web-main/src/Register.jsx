@@ -63,7 +63,7 @@ function Register() {
                 </form>
 
                 <p className="footer-text">
-                    Together Against Pollution 💚
+                    Together 💚
                 </p>
             </div>
         </div>
