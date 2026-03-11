@@ -63,7 +63,7 @@ function Register() {
                 </form>
 
                 <p className="footer-text">
-                    Together 💚
+                    Already have an account? <span style={{ color: 'skyblue', cursor: 'pointer' }} onClick={() => navigate("/login")}><b>Login here</b></span>
                 </p>
             </div>
         </div>
