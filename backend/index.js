@@ -72,7 +72,7 @@ message:"Email and password are required fields all fields are required to login
     if(!isPasswordValid){
         return res.status(400).json({
             success:false,
-            message:"Invalid password please try "
+            message:"Invalid password please try again"
         
             
         })
