@@ -82,7 +82,7 @@ message:"Email and password are required fields all fields are required to login
     delete user.password;
     JWT.sign({user},JWT_SECRET,{expiresIn:'2h'},(err,token)=>{
         if(err){
-            return res.status(500).send("");
+            return res.status(500).send("Error in token generation");
         }
         res.send({user,auth:token});
     })
