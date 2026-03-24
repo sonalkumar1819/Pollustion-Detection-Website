@@ -212,7 +212,7 @@ This project is licensed under the ISC License.
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [sonalkumar1819](https://github.com/sonalkumar1819)
 
 ## 🙏 Acknowledgments
 
@@ -222,7 +222,7 @@ This project is licensed under the ISC License.
 
 ## 📧 Contact
 
-For questions or support, please open an issue or contact [your-email@example.com](mailto:your-email@example.com)
+For questions or support, please open an issue or contact [jhasonal9142@gmail.com](mailto:jhasonal9142@gmail.com)
 
 ---
 
