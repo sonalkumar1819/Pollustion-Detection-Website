@@ -18,6 +18,7 @@ import Register from "./Register.jsx";
 import PrivateRouter from "./PrivateRouter.jsx";
 import NotFound from "./NotFound.jsx";
 import Logout from "./Logout.jsx";
+import Todo from "./Todo.jsx";
 
 const App = () => {
   React.useEffect(() => {
@@ -35,6 +36,7 @@ const App = () => {
     <Route element={<PrivateRouter/>}>
     <Route path="/logout" element={<Logout />} />
     <Route path="*" element={<NotFound />} />
+    <Route path="/todo" element={<Todo />}/>
 
     </Route>
     </Routes>
