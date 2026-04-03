@@ -1,4 +1,4 @@
-# 🌍 Pollusat - Air Quality Monitoring Platform
+# 🌍 Pollusat - Air Quality Monitoring System
 
 A full-stack web application for pollution detection and monitoring, featuring satellite data visualization and secure user authentication. This project combines modern web technologies with environmental awareness to provide real-time air quality insights.
 
